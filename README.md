@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Getting started
 
-First make sure are in react-form directory.
+First make sure you are in react-form directory.
 Install the node packages
 
 ```bash
