@@ -1,0 +1,20 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, calc(1360px + 2.5rem)) 1fr;
+}
+
+.layout-child {
+  grid-column: 2;
+}
+
+.form-interface {
+  margin-top: 4rem;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 1600px) {
+  .layout-child {
+    padding: 0 2rem;
+  }
+}
